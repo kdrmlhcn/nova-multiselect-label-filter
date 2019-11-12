@@ -1,0 +1,34 @@
+{
+    "name": "kdrmlhcn/nova-multiselect-label-filter",
+    "description": "Multiselect filter for Laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "multiselect",
+        "label",
+        "filter"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "^5.8|^6.0",
+        "laravel/nova": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kdrmlhcn\\NovaMultiselectFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kdrmlhcn\\NovaMultiselectFilter\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
