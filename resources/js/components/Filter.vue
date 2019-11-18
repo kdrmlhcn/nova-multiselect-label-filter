@@ -85,7 +85,7 @@
                     values.push(element.value)
                 });
 
-                return values
+                return values.length > 0 ? values : '';
             },
         },
     }
